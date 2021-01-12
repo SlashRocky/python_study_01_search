@@ -27,9 +27,9 @@ class Member(object):
 
     def print_existence_or_non(self):
         if self.character in source:
-            print('\n{}はリストに存在します。\n'.format(self.character))
+            print(f'\n{self.character}はリストに存在します。\n')
         else:
-            print('\n{}はリストに存在しません。\n'.format(self.character))
+            print(f'\n{self.character}はリストに存在しません。\n')
 
     def write_name(self):
         # 既にcsvファイルがある場合
